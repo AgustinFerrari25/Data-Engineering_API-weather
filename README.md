@@ -8,3 +8,7 @@ Automatizar el proceso para lanzar alertas (2 máximo) por e-mail en caso de que
 Generar un script que funcione como prototipo (MVP) de un ETL para el proyecto final
 El script debería extraer datos desde una API en formato JSON para ser manipulado como diccionario utilizando el lenguaje Python
 Generar una tabla para ser almacenada en una base de datos a partir de información una API.
+
+# Antes de ejecutar el codigo:
+  1. Crear un archivo del tipo .env y completar los datos (AWS_HOST, AWS_DB, AWS_USER, AWS_PASSWORD, AWS_PORT, KEY)
+  2. Instalar las librerias que se encuentran en el archivo 'requirements.txt'
