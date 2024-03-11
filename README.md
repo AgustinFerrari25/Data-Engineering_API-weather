@@ -4,7 +4,7 @@ Colocar los datos extraídos en un Data Warehouse.
 Automatizar el proceso que extraerá, transformará y cargará datos cuantitativos (ejemplo estos son: valores de acciones de la bolsa, temperatura de ciudades seleccionadas, valor de una moneda comparado con el dólar, casos de covid). 
 Automatizar el proceso para lanzar alertas (2 máximo) por e-mail en caso de que un valor sobrepase un límite configurado en el código.
 
-# 1ra PreEntrega
+# 1ra Entrega
 Generar un script que funcione como prototipo (MVP) de un ETL para el proyecto final
 El script debería extraer datos desde una API en formato JSON para ser manipulado como diccionario utilizando el lenguaje Python
 Generar una tabla para ser almacenada en una base de datos a partir de información una API.
