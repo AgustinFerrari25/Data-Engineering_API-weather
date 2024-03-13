@@ -5,5 +5,5 @@ Automatizar el proceso que extraerá, transformará y cargará datos cuantitativ
 Automatizar el proceso para lanzar alertas (2 máximo) por e-mail en caso de que un valor sobrepase un límite configurado en el código.
 
 # Antes de ejecutar el codigo:
-  1. completar los datos del archivo 'sample-dot-env'
+  1. Completar los datos del archivo 'sample-dot-env'
   2. En el .venv descargar las librerias que se encuentran en 'requirements.txt'
