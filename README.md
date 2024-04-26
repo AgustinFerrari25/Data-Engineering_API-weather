@@ -24,7 +24,8 @@ Este proyecto forma parte del trabajo final del curso de 'Data Engineering' real
 4. Vuelve al menú 'DAGs' y ejecuta `dag_tasks.py`
 5. Si algún valor no se encuentra dentro de los parámetros establecidos, recibirás un mail con la información correspondiente.
 
-> **Tener en cuenta**: Las variables 'COLUMN_NAME y MAX_VALUE' son modificables a gusto. Tener en cuenta que el nombre de 'COLUMN_NAME' tiene que ser igual al de al menos una columna de las APIs
+> **Tener en cuenta**: - Las variables 'COLUMN_NAME y MAX_VALUE' son modificables a gusto. Tener en cuenta que el nombre de 'COLUMN_NAME' tiene que ser igual al de al menos una columna de las APIs
+> - La API de 'weatherapi' solo puede devolver el historial de los ultimos 7 dias
 
 ## backfill 
 >Que es? Backfill es la ejecución de tareas para fechas pasadas. Asegura que todas las ejecuciones anteriores se completen correctamente y que el DAG esté completamente actualizado hasta la fecha actual.
