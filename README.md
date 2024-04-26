@@ -33,7 +33,7 @@ Este proyecto forma parte del trabajo final del curso de 'Data Engineering' real
 
 1. En la terminal, navega hasta la carpeta principal y ejecuta `Docker ps -a` (te muestra todos los contenedores de docker) y busca y copia uno que se llame `final_project_weather_api-airflow-scheduler-1` (foto_referencia_2)
 2. luego en la terminar escribir `docker exec -it final_project_weather_api-airflow-scheduler-1 bash`
-3. Para finalizar escribir `airflow dags backfill -s 2024-04-18 -e 2024-04-20 final_project` Primero va la fecha de inicio y la segunda fecha hace referencia hasta que dia queres hacer el backfill
+3. Para finalizar escribir `airflow dags backfill -s 2024-04-18 -e 2024-04-20 final_project`. La primera fecha hace referencia al inicio y la segunda fecha hasta que dia queres hacer el backfill
 
 ## Ayuda
 Variables recomendadas para una buena ejecución del código:
